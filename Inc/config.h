@@ -1,7 +1,7 @@
 // Define to prevent recursive inclusion
 #ifndef CONFIG_H
 #define CONFIG_H
-
+#define VARIANT_PWM
 #include "stm32f1xx_hal.h"
 
 // ############################### VARIANT SELECTION ###############################
