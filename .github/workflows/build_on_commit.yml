@@ -1,5 +1,5 @@
 name: Build
-ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+
 on:
   push:
     branches: [ '*' ]
@@ -22,6 +22,7 @@ jobs:
     - name: make
       env: 
         VARIANT: VARIANT_PWM
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
       run: make
 
     # Build with Platformio
