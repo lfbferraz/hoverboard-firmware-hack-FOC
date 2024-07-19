@@ -21,8 +21,7 @@ jobs:
     # Build with make
     - name: make
       env: 
-        VARIANT: VARIANT_PWM
-        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+        VARIANT: VARIANT_ADC
       run: make
 
     # Build with Platformio
