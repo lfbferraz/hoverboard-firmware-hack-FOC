@@ -21,7 +21,7 @@ jobs:
     # Build with make
     - name: make
       env: 
-        VARIANT: VARIANT_PWM
+        VARIANT: VARIANT_HOVERCAR
       run: make
 
     # Build with Platformio
